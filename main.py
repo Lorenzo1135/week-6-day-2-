@@ -14,10 +14,11 @@
 
 seconds = [1.23, 1.45, 1.02]
 current = 1.11
-
+seconds.append(current)
+print(seconds)
 # Remove item 1.45 from seconds.
 seconds = [1.23, 1.45, 1.02, 1.11]
-
+seconds.remove(1.45)
 
 # Remove items 1.45, 1.02, and 1.11 from seconds.
 seconds = [1.23, 1.45, 1.02, 1.11]
@@ -33,11 +34,21 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 # != different or not equal to
 
 
+#lesson
+my_bool=10==25
+print(my_bool)
 
-
+my_bool = 5+5== 10-0
+print(my_bool) #true
+my_bool= 'white'=='White'.lower 
+my_bool= ('sentence')
+##my_bool= ()
 # Comparison Operators Practice  1:
 # Create two variables (num1 and num2) with the following values: 36 and 17. Check if num1 is greater than or equal to num2 and store the result of that comparison in a variable called my_bool
-
+num1=36
+num2=17 
+my_bool= num1>=num2
+print(my_bool)
 
 
 # Comparison Operators Practice  2:
@@ -45,7 +56,9 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 # Inside num1, store the result of the square root of 25
 # Inside num2, store the number 5.
 # Check if num1 is equal to num2 and store the result of that comparison in a variable called my_bool.
-
+import math 
+num1= math.sqrt(25)
+num2=5
 
 # Comparison Operators Practice #3:
 # Create two variables (num1 and num2):
